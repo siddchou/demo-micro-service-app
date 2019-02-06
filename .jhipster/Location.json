@@ -1,0 +1,25 @@
+{
+    "name": "Location",
+    "fields": [
+        {
+            "fieldName": "city",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "province",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190206225803",
+    "entityTableName": "location",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "demoMicroserviceApp",
+    "applications": "*",
+    "angularJSSuffix": "ckw",
+    "microserviceName": "demoMicroserviceApp"
+}

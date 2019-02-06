@@ -5,6 +5,24 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225758_added_entity_Category.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225759_added_entity_Services.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225800_added_entity_ContractorService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225801_added_entity_UserAddressMap.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225802_added_entity_Contractor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225803_added_entity_Location.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225804_added_entity_Rate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225805_added_entity_AppUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225806_added_entity_Address.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225807_added_entity_JobHistory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225808_added_entity_JobTimeLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225809_added_entity_Payment.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20190206225759_added_entity_constraints_Services.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225800_added_entity_constraints_ContractorService.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225801_added_entity_constraints_UserAddressMap.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225806_added_entity_constraints_Address.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225807_added_entity_constraints_JobHistory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190206225808_added_entity_constraints_JobTimeLog.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
